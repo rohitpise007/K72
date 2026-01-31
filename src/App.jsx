@@ -1,0 +1,27 @@
+import React from 'react'
+import Home from './pages/Home.jsx'
+import {Route, Routes } from 'react-router-dom'
+import Projects from './pages/Projects.jsx'
+import Agence from './pages/Agence.jsx'
+import Navbar from './components/Navigation/Navbar.jsx'
+import FullScreenNav from './components/Navigation/fullScreenNav.jsx'
+
+
+
+const App = () => {
+
+  return (
+    <div ClassName='overflow-x-hidden'>
+      <Navbar/>
+      <FullScreenNav/>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/Projects' element={<Projects/>} />
+        <Route path='/Agence' element={<Agence/>} />
+      </Routes>
+      
+    </div>
+  )
+}
+
+export default App
