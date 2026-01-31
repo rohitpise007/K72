@@ -3,8 +3,8 @@ import Home from './pages/Home.jsx'
 import {Route, Routes } from 'react-router-dom'
 import Projects from './pages/Projects.jsx'
 import Agence from './pages/Agence.jsx'
-import Navbar from '../../components/Navigation/Navbar.jsx'
-import FullScreenNav from '../../components/Navigation/FullScreenNav.jsx'
+import Navbar from './components/Navigation/Navbar.jsx'
+import FullScreenNav from './components/Navigation/FullScreenNav.jsx'
 
 
 
