@@ -11,7 +11,7 @@ const Video = () => {
   playsInline
   preload="auto"
 >
-  <source src="/videos/homemp4.mp4" type="video/mp4" />
+  <source src="/public/videos/homemp4.mp4" type="video/mp4" />
 </video>
 
     </div>
